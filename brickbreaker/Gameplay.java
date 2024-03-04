@@ -181,7 +181,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
                 ballYdir = -3;
                 playerX = 310;
                 score = 0;
-                totalBricks = 30;
+                totalBricks = 60;
                 map = new MapGenerator(6,10);
                 
                 repaint();
